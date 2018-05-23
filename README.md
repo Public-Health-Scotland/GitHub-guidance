@@ -10,7 +10,7 @@ For writing and editing code, we recommend using the **GitHub Flow** method of w
 ![](https://i.imgur.com/LVTwlEE.png)
 *Original image from https://guides.github.com/introduction/flow/*
 
-Following this workflow is most important when working collaboratively on code which is intended for publication and applies even to minor, low-risk changes. There may be instances when you are working alone, and on code which is very developmental, in which case you may not need to follow this workflow. There are also specific repositories which do not require this workflow such as this repository and the [resources repository](https://github.com/NHS-NSS-transforming-publications/resources) - this is because changes to these repositories do not effect code for publications. 
+Following this workflow is most important when working collaboratively on code which is intended for publication and applies even to minor, low-risk changes. There may be instances when you are working alone, and on code which is very developmental, in which case you may not need to follow this workflow. There are also specific repositories which do not require this workflow such as this repository and the [resources repository](https://github.com/NHS-NSS-transforming-publications/resources) - this is because changes to these repositories do not affect code for publications. 
 
 #### Top tips for following the GitHub Flow:
 - In order to ensure that this workflow is followed we recommend **protecting the master branch** via the settings on a repository. In the Branches tab, check the box _Protect this branch_ and then the box _Require pull request reviews before merging_.

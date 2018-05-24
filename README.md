@@ -14,12 +14,14 @@ Following this workflow is most important when working collaboratively on code w
 
 #### Top tips for following the GitHub Flow:
 - In order to ensure that this workflow is followed we recommend **protecting the master branch** via the settings on a repository. In the Branches tab, check the box _Protect this branch_ and then the box _Require pull request reviews before merging_.
+![](https://i.imgur.com/b6EqJ7W.png)
 - In order to avoid merge conflicts (as much as possible), **keep branches short-lived** and **pull from the master branch before creating a pull request yourself**. Both these measures will ensure that your branch is kept up-to-date with the master branch.
 - **Commit and create pull requests early and often.** This will create a helpful audit trail and also reduce the chance of merge conflicts.
+- Note that when cloning repositories, you cannot clone to the Stats server - you will need to save the repository in your home drive or local files.
 
 ## Security
 The following rules should be followed in order to adhere to security and confidentiality guidelines in PHI:
 1. Use your .gitignore file to make sure that **no data files are ever uploaded to GitHub**. At a minimum, ensure that your .gitignore includes common text files, excel files, SPSS formats, R data files and any folder called 'data'. An [example .gitignore file](https://github.com/NHS-NSS-transforming-publications/GitHub-guidance/blob/master/.gitignore) can be found inside this repository with code to ignore these main file types. However, be aware that data may be saved in other formats so you may need to add to these for certain projects. Options for additional file types can be found [in this excellent GitHub repository](https://github.com/ukgovdatascience/dotfiles). 
 2. Ensure that **usernames and passwords are never embedded in your code**. 
 3. Ensure that **comments within code do not contain any confidential information** such as CHI numbers or other patient identifiable information.
-4. It is fine to embed filepaths in your code, but make sure that these do not include **sensitive folder names**.
+4. It is fine to embed filepaths in your code, but make sure that these do not include **sensitive folder names** (e.g. customer names).

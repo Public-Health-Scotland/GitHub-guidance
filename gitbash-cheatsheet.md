@@ -1,5 +1,6 @@
 # Git Bash Cheat Sheet
 
+A useful reference list of Git Bash commands. If there's something missing, please add it!
 
 **Command** | **Description**
 ------------- | -------------

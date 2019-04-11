@@ -11,7 +11,7 @@ data/
 *.[tT][xX][tT]
 
 # Excel files #
-*.[xX][lL][sS][xXmMtT]?
+*.[xX][lL][sS]*
 
 # SPSS formats #
 *.[sS][aA][vV]

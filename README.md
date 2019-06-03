@@ -18,7 +18,7 @@ For writing and editing code, we recommend using the **GitHub Flow** method of w
 
 Following this workflow is most important when working collaboratively on code which is intended for publication and applies even to minor, low-risk changes. There may be instances when you are working alone, and on code which is very developmental, in which case you may not need to follow this workflow. There are also specific repositories which do not require this workflow such as this repository and the [resources repository](https://github.com/NHS-NSS-transforming-publications/resources) - this is because changes to these repositories do not affect code for publications. 
 
-#### Top tips for following the GitHub Flow:
+## Top tips for following the GitHub Flow
 - In order to ensure that this workflow is followed we recommend **protecting the master branch** via the settings on a repository. In the Branches tab, check the box _Protect this branch_ and then the box _Require pull request reviews before merging_. This means that code can only be added to the master copy of the code via a branch. You can also set a minimum number of reviewers required for changes to be merged.
 ![](https://i.imgur.com/b6EqJ7W.png)
 - In order to avoid merge conflicts as much as possible, **keep branches short-lived** (i.e. delete a branch after merging with the master) and **pull from the origin (GitHub) regularly, particularly before creating a pull request yourself**. Note that pulling will not overwrite local changes you have made, so you should feel confident that you can pull regularly in order to keep up to date with any changes made directly on GitHub, or by other contributors (e.g. the creation of new branches directly on GitHub).

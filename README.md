@@ -23,7 +23,7 @@ Following this workflow is most important when working collaboratively on code w
 ![](https://i.imgur.com/b6EqJ7W.png)
 - In order to avoid merge conflicts as much as possible, **keep branches short-lived** (i.e. delete a branch after merging with the master) and **pull from the origin (GitHub) regularly, particularly before creating a pull request yourself**. Note that pulling will not overwrite local changes you have made, so you should feel confident that you can pull regularly in order to keep up to date with any changes made directly on GitHub, or by other contributors (e.g. the creation of new branches directly on GitHub).
 - **Commit and create pull requests early and often.** This will create a helpful audit trail of your project. It also makes the review process more managable for those assigned to the task.
-- Note that when make changes to the code, you should clone a repository to your home drive or local files and work on it there.
+- Note that when you make changes to the code, you should clone a repository to your home drive or local files and work on it there.
 
 ## Security
 The following rules should be followed in order to adhere to security and confidentiality guidelines in PHI:

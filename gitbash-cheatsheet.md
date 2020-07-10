@@ -6,7 +6,7 @@ A useful reference list of Git Bash commands. If there's something missing, plea
 ----------- | -------------
 git config --global user.email <_email address_> | set email
 git config --global user.name <_name_> | set username
-ssh-keygen --t rsa --b 4096 --C "_email address_" | create ssh key
+ssh-keygen -t rsa -b 4096 -C "_email address_" | create ssh key
 cd | change directory
 ls | list contents of current directory
 git clone <_repo key from GitHub_> | clone directory

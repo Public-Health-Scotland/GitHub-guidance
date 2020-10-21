@@ -1,4 +1,4 @@
-# GitHub-guidance
+# GitHub Guidance
 _Guidance and best practice rules for using GitHub within the Public Health Scotland organisation_
 
 ## Contents

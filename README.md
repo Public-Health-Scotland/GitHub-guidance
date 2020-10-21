@@ -1,5 +1,5 @@
 # GitHub-guidance
-_Guidance and best practice rules for using GitHub within the Transforming Publishing team_
+_Guidance and best practice rules for using GitHub within the Public Health Scotland organisation_
 
 ## Contents
 - [Set up](#set-up)
@@ -8,7 +8,7 @@ _Guidance and best practice rules for using GitHub within the Transforming Publi
 - [Security](#security)
 
 ## Set up
-In order to use the Transforming Publishing organisation account, you will need to sign up for a personal GitHub account. You can do this using your NHS email address or a personal email address if you prefer. If you are using your NHS email address then **ensure that you do not also use your NHS password**. You should then send your GitHub handle/username to the Transfroming Publishing mailbox (phs.transformingpublishing@phs.scot), then one of the owners will add you to the organisation. Please make your **profile name your full name**, and if you are happy to do so make your profile picture a photo of yourself - often handles are a random assortment of letters and numbers so this allows your collaborators to know instantly who has edited their code. It also helps to make GitHub a friendly place to work! :family:
+In order to use the Public Health Scotland organisation account, you will need to sign up for a personal GitHub account. You can do this using your PHS/NHS email address or a personal email address if you prefer. If you are using your PHS/NHS email address then **ensure that you do not also use your PHS/NHS password**. You should then send your GitHub handle/username to the Transfroming Publishing mailbox (phs.transformingpublishing@phs.scot), where one of the owners will add you to the organisation. Please make your **profile name your full name**, and if you are happy to do so make your profile picture a photo of yourself - often handles are a random assortment of letters and numbers so this allows your collaborators to know instantly who has edited their code. It also helps to make GitHub a friendly place to work! :family:
 
 ## Workflow
 For writing and editing code, we recommend using the **GitHub Flow** method of working (see image below). This is a branch-based workflow and involves keeping the master branch clean and 'production ready' at all times. This means that the code is fully functional i.e. ready to be deployed if the project is a Shiny app or runs correctly if it is an analytical piece of work. When making changes to a repository, analysts should create a branch per person, carry out the required changes and then merge these back to the master branch via a pull request. Pull requests should be approved by at least one collaborator - we recommend you assign a specific reviewer(s) to check your work. In order to ensure that the master branch remains 'production ready' we also recommend that changes are tested by the reviewer before approving. GitHub provides excellent functionality for dialogue between collaborators on a pull request, until all are happy with the final code. There is no need to have lots of long-living branches - in other words, after a specific change or set of changes have been made and merged back into the master branch, delete your personal branch. 
@@ -26,7 +26,7 @@ Following this workflow is most important when working collaboratively on code w
 - Note that when you make changes to the code, you should clone a repository to your home drive or local files and work on it there.
 
 ## Security
-The following rules should be followed in order to adhere to security and confidentiality guidelines in PHI:
+The following rules should be followed in order to adhere to security and confidentiality guidelines in PHS:
 1. Use your .gitignore file to make sure that **no data files are ever uploaded to GitHub**. At a minimum, ensure that your .gitignore includes common text files, excel files, SPSS formats, R data files and any folder called 'data'. An [example .gitignore file](https://github.com/Public-Health-Scotland/GitHub-guidance/blob/master/.gitignore) can be found inside this repository with code to ignore these main file types. However, be aware that data may be saved in other formats so you may need to add to these for certain projects. Options for additional file types can be found [in this excellent GitHub repository](https://github.com/ukgovdatascience/dotfiles). 
 2. Ensure that **usernames and passwords are never embedded in your code**. 
 3. Ensure that **comments within code do not contain any confidential information** such as CHI numbers or other patient identifiable information.

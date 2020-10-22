@@ -36,7 +36,7 @@ The following rules should be followed in order to adhere to security and confid
 ## Style Guide
 To ensure consistency of use within the organisation, some guidance on styling while using git and GitHub is outlined below:
 - **Repos names** should be lowercase with hypens, descriptive and unique. For example, if you need a repo for _time series_, the repo name should be specific enough to highlight the publication or team name, e.g. `tpp-time-series`.
-- **Commit messages** should be consise and meaningful. If you need to raise awareness of something particular, the pull request commentary could be a better place.
+- **Commit messages** should be concise and meaningful. If you need to raise awareness of something particular, the pull request commentary could be a better place.
 - **Teams** can be used, although consider how broad the team can be to be most effective. Instead of creating a team for a publication, does the team or health topic have better coverage?
 - **README files** are automatically rendered on the first page when visiting the repo on GitHub. They are the perfect place to provide users an overview of the project and how to get involved, an example is given in the [r-project-structure repo](https://github.com/Public-Health-Scotland/r-project-structure/blob/master/README.md). Where possible, README files should be generated for each public repo.
 - **Private and public repos** are available in the PHS organisation. We encourage coding in the open with the above [security](#security) guidelines in practice. However, if you have the need for a private repo you can use them on GitHub or consider the use of Gitea. 

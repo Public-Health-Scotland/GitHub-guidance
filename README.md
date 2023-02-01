@@ -14,6 +14,8 @@ In order to use the Public Health Scotland organisation account, you will need t
 ## Workflow
 For writing and editing code, we recommend using the **GitHub Flow** method of working (see image below). This is a branch-based workflow and involves keeping the master branch clean and 'production ready' at all times. This means that the code is fully functional i.e. ready to be deployed if the project is a Shiny app or runs correctly if it is an analytical piece of work. When making changes to a repository, analysts should create a branch per person, carry out the required changes and then merge these back to the master branch via a pull request. Pull requests should be approved by at least one collaborator - we recommend you assign a specific reviewer(s) to check your work. In order to ensure that the master branch remains 'production ready' we also recommend that changes are tested by the reviewer before approving. GitHub provides excellent functionality for dialogue between collaborators on a pull request, until all are happy with the final code. There is no need to have lots of long-living branches - in other words, after a specific change or set of changes have been made and merged back into the master branch, delete your personal branch. 
 
+> **Warning** - ensure that confidential information, such as passwords and secrets, are never committed using git. For more information about security practice, see [Security](#security) below.
+
 ![](https://i.imgur.com/LVTwlEE.png)
 *Original image from https://guides.github.com/introduction/flow/*
 
@@ -29,9 +31,11 @@ Following this workflow is most important when working collaboratively on code w
 ## Security
 The following rules should be followed in order to adhere to security and confidentiality guidelines in PHS:
 1. Use your .gitignore file to make sure that **no data files are ever uploaded to GitHub**. At a minimum, ensure that your .gitignore includes common text files, excel files, SPSS formats, R data files and any folder called 'data'. An [example .gitignore file](https://github.com/Public-Health-Scotland/GitHub-guidance/blob/master/.gitignore) can be found inside this repository with code to ignore these main file types. However, be aware that data may be saved in other formats so you may need to add to these for certain projects. Options for additional file types can be found [in this excellent GitHub repository](https://github.com/ukgovdatascience/dotfiles). 
-2. Ensure that **usernames and passwords are never embedded in your code**. 
+2. Ensure that **usernames, passwords, or secrets (authentication keys, etc.) are never embedded in your code**. 
 3. Ensure that **comments within code do not contain any confidential information** such as CHI numbers or other patient identifiable information.
 4. It is fine to embed filepaths in your code, but make sure that these do not include **sensitive folder names** (e.g. customer names).
+
+> **Note** - if any of the above occurs, please follow standard Information Governance (IG) procedures. As a first step, this should be to remove the offending commit from history (not just adding a new commit). There is a GitHub document to support this: https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository
 
 ## Style Guide
 To ensure consistency of use within the organisation, some guidance on styling while using git and GitHub is outlined below:
